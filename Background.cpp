@@ -12,7 +12,7 @@ Background::Background()
     {
         std::vector<sf::Sprite*> tileline;
         int width = -1;
-        for (int i = 0; i < 21; ++i)
+        for (int i = 0; i < 28; ++i)
         {
             sf::Sprite* test = new sf::Sprite();
             test->setTexture(texture);
